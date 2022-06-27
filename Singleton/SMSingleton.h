@@ -1,6 +1,8 @@
 #ifndef SM_SINGLETON_H_
 #define SM_SINGLETON_H_
 
+#include <iostream>
+
 class SMSingleton
 {
 private:
@@ -21,7 +23,8 @@ public:
 
     void doSomething()
     {
-    	// doSomething here
+        // doSomething here
+    	std::cout << "\nDoing something SMSingleton.\n";
     }
 };
 

@@ -1,7 +1,6 @@
 #ifndef NAIVE_SINGLETON_H_
 #define NAIVE_SINGLETON_H_
 
-#include <string>
 #include <iostream>
 
 class NaiveSingleton
@@ -29,6 +28,7 @@ public:
     void doSomething()
     {
         // doSomething here
+        std::cout << "\nDoing something NaiveSingleton.\n";
     }
 };
 

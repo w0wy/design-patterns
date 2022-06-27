@@ -20,3 +20,4 @@ target_compile_options(${PROJECT_ID}_options
 )
 
 add_subdirectory(Singleton)
+add_subdirectory(Observer)
